@@ -1,0 +1,16 @@
+/* General styles for the header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #f8f8f8;
+    border-bottom: 2px solid #ddd;
+  }
+  
+  /* Styling for the title */
+  .header-title {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  

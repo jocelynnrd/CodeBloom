@@ -1,0 +1,32 @@
+/* About Me page container styles */
+.about-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  /* Styling the photo */
+  .about-me-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+  }
+  
+  /* Bio section styles */
+  .about-me-bio {
+    max-width: 600px;
+  }
+  
+  .about-me-bio h2 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .about-me-bio p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  

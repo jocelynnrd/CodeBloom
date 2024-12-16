@@ -1,0 +1,27 @@
+/* Styles for the project container */
+.project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    background-color: #fff;
+    transition: transform 0.2s;
+  }
+  
+ 
+  .project:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Title styling */
+  .project-title {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+  }
+  
+  .project-links a:hover {
+    text-decoration: underline;
+  }
+  
